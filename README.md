@@ -43,8 +43,6 @@ All models are trained on a **32×32 padded version of FashionMNIST**, which aid
 - `assignment.py` – Model builders for training/evaluation.
 - `main.py` – Training and inference script.
 - `classifier.pt` – Pretrained model used to evaluate accuracy on generated samples.
-- `checkpoints/` – Stores trained model weights.
-- `notebook.ipynb` – For interactive testing and evaluation.
 
 ---
 
