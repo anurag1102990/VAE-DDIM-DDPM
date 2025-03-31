@@ -43,6 +43,7 @@ All models are trained on a **32×32 padded version of FashionMNIST**, which aid
 - `assignment.py` – Model builders for training/evaluation.
 - `main.py` – Training and inference script.
 - `classifier.pt` – Pretrained model used to evaluate accuracy on generated samples.
+- `trainers.py` – Contains model-specific training functions for DDPM, DDIM, VAE, and LDDPM, including evaluation checkpoints and visual sample generation.
 
 ---
 
