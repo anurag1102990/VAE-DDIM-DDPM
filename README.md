@@ -8,10 +8,9 @@ Generative models aim to learn data distributions and produce realistic samples.
 
 The models implemented include:
 
-- 🌀 **DDPM (Denoising Diffusion Probabilistic Models)**  
-- ⚡ **DDIM (Denoising Diffusion Implicit Models)**  
-- 🔁 **Conditional Variational Autoencoders (VAE)**  
-- 💥 (Bonus) **LDDPM (Latent Diffusion with VAE + DDPM)**
+- **DDPM (Denoising Diffusion Probabilistic Models)**  
+- **DDIM (Denoising Diffusion Implicit Models)**  
+- **Conditional Variational Autoencoders (VAE)**  
 
 All models are trained on a **32×32 padded version of FashionMNIST**, which aids in better downsampling and convolution operations.
 
